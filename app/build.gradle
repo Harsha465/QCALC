@@ -11,6 +11,10 @@ plugins {
     id 'application'
 }
 
+ext {
+	buildId = System.currentTimeMillis()
+}
+
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
@@ -19,9 +23,6 @@ repositories {
 dependencies {
     // Use JUnit Jupiter for testing.
     testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
-}
-ext {
-    buildId = System.currentTimeMillis()
 }
 
 application {

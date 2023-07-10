@@ -1,4 +1,5 @@
 package com.crio.qcalc;
+
 public class StandardCalculator {
     private int result;
     public static void getVersion(){
@@ -35,5 +36,10 @@ public class StandardCalculator {
     }
 
 
+public class StandardCalculator {
+
+    public static void getVersion(){
+        System.out.println("Standard Calculator 1.0");
+    }
 
 }
